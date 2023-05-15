@@ -1,0 +1,68 @@
+.mail {
+  border: 0.5px solid #9f9f9f;
+  width: 100%;
+  display: flex;
+  max-width: 1024px;
+  align-items: center;
+  height: 6rem;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.dealSpan {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.exclusive {
+  font-size: 20px;
+  font-weight: 600;
+}
+.inboxdeals {
+  color: lightgray;
+  font-size: 16px;
+}
+.fire {
+  height: 5rem;
+}
+
+.mailInput {
+  height: 2.5rem;
+  margin-right: 1rem;
+  width: 16rem;
+  padding-left: 0.5rem;
+  outline: none;
+}
+.mailbtn {
+  height: 2.5rem;
+  background-color: rgb(238, 42, 36);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 3rem;
+  border-radius: 4px;
+  width: 7rem;
+  border: none;
+}
+@media screen and (max-width: 724px) {
+    .mail{
+        flex-direction: column;
+        height: 12rem;
+    }
+    .dealSpan{
+        display: unset;
+    }
+    .exclusive{
+        display: flex;
+    }
+}
+@media screen and (max-width:455px){
+    .mailInput{
+        width: 9rem;
+        margin-right: 0;
+
+    }
+    .mailbtn{
+        width: 5rem;
+    }
+    }

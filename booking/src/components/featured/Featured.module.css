@@ -1,0 +1,34 @@
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    gap:2.2rem;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.featuredItem{
+    position: relative;
+    color: white; 
+    border-radius: 10px;
+    overflow: hidden;
+    height:8.125rem;
+}
+.featuredImg{
+    width: 100%;
+   
+    object-fit: cover;
+}
+.featuredTitles{
+    font-size: .625rem;
+    position: absolute;
+    bottom:10px ;
+    left:10px;
+}
+@media screen and (max-width:452px){
+    .featured{
+      flex-direction: column;
+      width: 50vw;
+      justify-content: center;
+    }
+    }

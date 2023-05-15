@@ -1,0 +1,131 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap:.625rem
+}
+.hotelWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap:.625rem;
+    position: relative;
+}
+.hotelImgWrapper{
+    width: 33%;
+}
+.hotelImg{
+    width: 100%;
+    object-fit: cover;
+    
+}
+.hotelTitle{
+    font-size: 1.5rem;
+}
+.hotelAddress{
+    font-size: .75rem;
+    display: flex;
+    align-items: center;
+    gap:.625rem
+}
+.hotelImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.booknow{
+    position: absolute;
+    right: 0;
+    top:.625rem;
+    border: none;
+   padding:.625rem 1.25rem;
+   background-color: rgb(26,182,79) ;
+   color:white;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.hotelDetails{
+    display: flex;
+    justify-content: space-between;
+    gap:1.25rem;
+    margin-top: 1.25rem;
+}
+.hotelDesc{
+    font-size: .875rem;
+    margin-top:1.25rem
+}
+.hotelDetailsTexts{
+    flex:3;
+    text-align: justify;
+}
+.hotelDetailsPrice{
+    flex:1;
+    background-color: #e4b9b9;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hotelDetailsPrice>h1{
+    font-size:1.125rem;
+    color:#555
+}
+.hotelDetailsPrice>span{
+    font-size: .875rem;
+    display: flex;
+    
+}
+.hotelDetailsPrice>h2{
+  
+    display: flex;
+  
+ align-items: center;
+  
+}
+.hotelDetailsPrice>button{
+    border: none;
+   padding:.625rem 1.25rem;
+   background-color: rgb(26,182,79) ;
+   color:white;
+   font-weight: bold;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.slider{
+     position:sticky;
+     top:0;
+     left:0;
+     width:100vw;
+     height:100vh;
+     background-color: rgba(0, 0, 0, 0.447);
+     z-index:999
+}
+.sliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderImg{
+    width:80%;
+    height: 80vh;
+    user-select: none;
+}
+.close{
+    position: absolute;
+    top:20px;
+    right: 20px;
+    font-size: 30px;
+    color: lightgray;
+    cursor: pointer;
+}
+.arrow{
+    margin: 20px;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+}
